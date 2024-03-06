@@ -1,1 +1,33 @@
 /* Start writing your CSS */
+
+div{
+    background-color: white;
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+  }
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 5px solid #333;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+
+    header {
+        border: 7px solid #333; 
+        padding: 10px; 
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    header img {
+        display: block; 
+        max-width: 100%; 
+        height: auto; 
+    }
