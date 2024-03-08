@@ -1,5 +1,16 @@
 /* Start writing your CSS */
 
+
+
+
+
+body {
+    font-family: "Paytone One", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+}
+
+
 div{
     background-color: white;
     width: 300px;
@@ -31,3 +42,66 @@ div{
         max-width: 100%; 
         height: auto; 
     }
+
+
+    /* About Section */
+
+    .titlebox{
+        background-color: white;
+        border: 3px solid black;
+        padding: 2% 5%;
+        font-size: 38px;
+        color: black;
+    }
+
+    .mainsection{
+        background-color: white;
+        border: 5px solid black;
+        padding: 2% 5%;
+        font-size: 18px;
+        color: black;
+        width: 90vw;
+        padding: 4%;
+    }
+
+
+    .CalypsoLogo{
+        background-color: white;
+        border: 3px solid black;
+        padding: 2% 5%;
+        font-size: 40px;
+        color: black;
+    }
+
+    .Portfolio{
+        background-color: white;
+        border: 3px solid black;
+        padding: 2% 5%;
+        font-size: 40px;
+        color: black;
+
+
+    }
+
+    .CookBookSpreads{
+        background-color: white;
+        border: 3px solid black;
+        padding: 2% 5%;
+        font-size: 40px;
+        color: black;
+    }
+
+    /* hover style */
+
+      /* Define styles for the icon */
+  .icon {
+    background-image: url('original-icon.png');
+    background-size: cover;
+    transition: background-image 0.3s ease;
+  }
+  
+  /* Define styles for the hover state */
+  .icon:hover {
+    background-image: url('hover-icon.png');
+  }
+
