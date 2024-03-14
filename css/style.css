@@ -25,7 +25,48 @@ div{
     border: 5px solid #333;
     padding: 20px;
     box-sizing: border-box; 
+    /* margin: 10%;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 5px solid #333;
+    padding: 30px;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    font-size: 35px;
+    text-align: center;
+}
+
+.box3 {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border: 5px solid #333;
+    padding: 30px;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% auto;
+    font-size: 35px;
+    text-align: center;
+    }
+
+    .container{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
 
 
     header {
@@ -43,6 +84,15 @@ div{
         height: auto; 
     }
 
+    #illustration_boxes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
 
     /* About Section */
 
@@ -58,6 +108,7 @@ div{
         display: flex;
         justify-content: right;
         align-items: right;
+        text-align: center;
     }
 
     .mainsection{
@@ -80,19 +131,20 @@ div{
     #portfolio_box{
         width: 400px; 
         margin: 0 auto;
+    
     }
 
     #portfolio_header{
         display: flex;
         justify-content: center;
-        align-items: center;
+        
     }
 
     #contact_header{
         display: flex;
         justify-content: right;
         align-items: right;
-
+        
     }
 
     .CalypsoLogo{
@@ -125,13 +177,33 @@ div{
 
       /* Define styles for the icon */
   .icon {
-    background-image: url('original-icon.png');
+    background-image: url('../img/PalmerLogo.png');
     background-size: cover;
-    transition: background-image 0.3s ease;
+    transition: background-image 0.3s ease-in-out;
+  }
+
+  .icon2 {
+    background-image: url('../img/PalmerLogo.png');
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
+  }
+
+  .icon3 {
+    background-image: url('../img/PalmerLogo.png');
+    background-size: cover;
+    transition: background-image 0.3s ease-in-out;
   }
   
   /* Define styles for the hover state */
   .icon:hover {
+    background-image: url('hover-icon.png');
+  }
+
+  .icon:hover2 {
+    background-image: url('hover-icon.png');
+  }
+
+  .icon:hover3 {
     background-image: url('hover-icon.png');
   }
 
