@@ -1,209 +1,87 @@
 /* Start writing your CSS */
 
+  /* Main Styles */
 
-
-
-
-body {
-    font-family: "Paytone One", sans-serif;
-    font-weight: 400;
-    font-style: normal; 
+body{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-
-div{
-    background-color: white;
-    width: 300px;
-    padding: 50px;
-    margin: 20px;
+  section{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 100%;
   }
 
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: white;
-    border: 5px solid #333;
-    padding: 20px;
-    box-sizing: border-box; 
-    /* margin: 10%;*/
+  .thickbox{
+    border: 3px solid #000;
+    box-shadow: 3px solid #000;
+  }
+
+
+  /* Hero Section */
+
+  header{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    margin: 0 auto;
+    width: 97vw;
+    border: 6px solid #000;
+  }
 
-.box2 {
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border: 5px solid #333;
-    padding: 30px;
-    box-sizing: border-box; 
+  .centerme{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5% auto;
-    font-size: 35px;
-    text-align: center;
-}
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 
-.box3 {
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border: 5px solid #333;
-    padding: 30px;
-    box-sizing: border-box; 
+  .intro{
+    width: 40%;
+    height: auto;
+  }
+
+  nav{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 5% auto;
-    font-size: 35px;
-    text-align: center;
-    }
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 95%;
 
-    .container{
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-
-
-
-    header {
-        border: 7px solid #333; 
-        padding: 10px; 
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    header img {
-        display: block; 
-        max-width: 100%; 
-        height: auto; 
-    }
-
-    #illustration_boxes{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        
-    }
-
-
-    /* About Section */
-
-    .titlebox{
-        background-color: white;
-        border: 3px solid black;
-        padding: 2% 5%;
-        font-size: 38px;
-        color: black;
-    }
-
-    .contactinfo{
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        text-align: center;
-    }
-
-    .mainsection{
-        background-color: white;
-        border: 5px solid black;
-        padding: 2% 5%;
-        font-size: 18px;
-        color: black;
-        width: 90vw;
-        padding: 4%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .mainsection p{
-        text-align: center;
-    }
-
-    #portfolio_box{
-        width: 400px; 
-        margin: 0 auto;
-    
-    }
-
-    #portfolio_header{
-        display: flex;
-        justify-content: center;
-        
-    }
-
-    #contact_header{
-        display: flex;
-        justify-content: right;
-        align-items: right;
-        
-    }
-
-    .CalypsoLogo{
-        background-color: white;
-        border: 3px solid black;
-        padding: 2% 5%;
-        font-size: 40px;
-        color: black;
-    }
-
-    .Portfolio{
-        background-color: white;
-        border: 3px solid black;
-        padding: 2% 5%;
-        font-size: 40px;
-        color: black;
-
-
-    }
-
-    .CookBookSpreads{
-        background-color: white;
-        border: 3px solid black;
-        padding: 2% 5%;
-        font-size: 40px;
-        color: black;
-    }
-
-    /* hover style */
-
-      /* Define styles for the icon */
-  .icon {
-    background-image: url('../img/PalmerLogo.png');
-    background-size: cover;
-    transition: background-image 0.3s ease-in-out;
   }
 
-  .icon2 {
-    background-image: url('../img/PalmerLogo.png');
-    background-size: cover;
-    transition: background-image 0.3s ease-in-out;
+  .navlink{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 5%;
   }
 
-  .icon3 {
-    background-image: url('../img/PalmerLogo.png');
-    background-size: cover;
-    transition: background-image 0.3s ease-in-out;
-  }
-  
-  /* Define styles for the hover state */
-  .icon:hover {
-    background-image: url('hover-icon.png');
-  }
+/* About Section */
 
-  .icon:hover2 {
-    background-image: url('hover-icon.png');
-  }
 
-  .icon:hover3 {
-    background-image: url('hover-icon.png');
-  }
+
+
+/* Portfolio Section */
+
+
+
+
+/* Contact Section */
+
+
+
+
 
