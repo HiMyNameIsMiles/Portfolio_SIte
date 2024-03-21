@@ -20,7 +20,7 @@ body{
     align-items: flex-start;
     flex-direction: column;
     margin: 0 auto;
-    height: 100vh;
+    height: 120vh;
     max-width: 100%;
   }
 
@@ -124,6 +124,7 @@ h2{
   position: relative;
   height: 40vh;
   background-color: #fff;
+  top: 135px;
 }
 
 #about p{
@@ -133,17 +134,17 @@ h2{
 
 .about_intro {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 1% 0%;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  position: absolute;
-  top: -23%;
-  right: 140px;
-  width: 20%;
-  background: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 1% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: absolute;
+    top: -35%;
+    right: 10px;
+    width: 30%;
+    background: #fff;
 }
 
 
@@ -158,6 +159,7 @@ h2{
   padding: 2% 0%;
   width: 95vw;
   position: relative;
+  top: 250px;
 }
 
 .portfolio_intro {
@@ -170,9 +172,10 @@ h2{
   box-shadow: -10px 20px;
   width: 30%;
   background: #fff;
+  
 }
 
-.workgrid{
+.workgrid {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -180,6 +183,8 @@ h2{
   flex-wrap: wrap;
   width: 95vw;
   margin: 3%;
+  position: relative;
+  bottom: 300px;
 }
 
 .portfolioanchor{
@@ -235,6 +240,7 @@ h2{
 
 .portfolio_image{
   border: 6px solid #000;
+  
 }
 
 .portfolio_header{
@@ -245,7 +251,40 @@ h2{
   border: 6px solid #000;
   width: 95%;
   background-color: #fff;
+  position: relative;
+  top: 50px;
+  left: 50px;
 }
+
+.portfolio_header_2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border: 6px solid #000;
+  width: 95%;
+  background-color: #fff;
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+
+.portfolio_header_4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border: 6px solid #000;
+  width: 95%;
+  background-color: #fff;
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
+
+
+  
+
 
 /* Contact Section */
 
@@ -261,6 +300,7 @@ h2{
   position: relative;
   height: 40vh;
   background-color: #fff;
+  top: 500px;
 }
 
 .contact_intro {
@@ -280,17 +320,17 @@ h2{
 
 .contact_intro {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 1% 0%;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  position: absolute;
-  top: -23%;
-  right: 140px;
-  width: 20%;
-  background: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 1% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: absolute;
+    top: -35%;
+    right: 10px;
+    width: 30%;
+    background: #fff;
 }
 
 #contact p{
