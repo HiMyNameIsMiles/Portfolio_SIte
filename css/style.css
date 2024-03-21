@@ -1,387 +1,328 @@
-@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 /* Start writing your CSS */
 
-/*
-  1. Use a more-intuitive box-sizing model.
-*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+  /* Main Styles */
 
-/*
-  2. Remove default margin
-*/
-* {
-  margin: 0;
-}
-
-/*
-  Typographic tweaks!
-  3. Add accessible line-height
-  4. Improve text rendering
-*/
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-/*
-  5. Improve media defaults
-*/
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
+body{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
   max-width: 100%;
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  background-color: #C3C3C3;
 }
 
-/*
-  6. Remove built-in form typography styles
-*/
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
+  section{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 0 auto;
+    height: 100vh;
+    max-width: 100%;
+  }
 
-/*
-  7. Avoid text overflows
-*/
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
+  .thickbox{
+    border: 3px solid #000;
+  }
 
-/*
-  8. Create a root stacking context
-*/
-#root,
-#__next {
-  isolation: isolate;
-}
 
-/* Main styles */
-
-body {
-  background: url('../img/gradient_background.jpg') center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 100%;
-  font-family: "Maven Pro", sans-serif;
-}
-
-/* header styles */
+  /* Hero Section */
 
 header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2%;
-  background-color: #BCCFF7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2% 0%;
+    width: 97vw;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    background-color: #fff;
 }
 
-header a.home_button {
-  color: black;
-  text-decoration: none;
-  font-size: 20px;
-  font-family: "Maven Pro", sans-serif;
+h1{
+  font-family: "Play", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+h2{
+  font-family: "Play", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
 }
 
-nav a {
-  color: black;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 0% 3%;
-  font-size: 20px;
-  font-family: "Maven Pro", sans-serif;
+  .centerme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .intro {
+    display: flex;
+    width: 40%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2%;
+    padding: 1%;
+    background-color: #fff;
 }
 
-/* Homepage styles */
-
-#homebody {
-  background-image: url("../img/homebg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#homesection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 80%;
-  margin: 0%;
-}
-
-#homesection h1 {
-  color: #FFF;
-  font-size: 60px;
-  margin-left: -50%;
-  font-family: sans-serif;
-}
-
-.centerme {
+  nav{
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 100%;
-  position: absolute;
-  top: 45%;
-}
-
-.homecenterme {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  position: absolute;
-  top: 45%;
-}
-
-/* About */
-
-#aboutsection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  background-color: #E0D3DE;
-  width: 80%;
-  margin: 0 auto;
-  top: 30%;
-  left: 10%;
-  padding: 10%;
-}
-
-#abouttext {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  position: relative;
-}
-
-/* Contact */
-
-#contactsection {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  position: absolute;
-  width: 80%;
-  background-color: #E0D3DE;
-  padding: 12%;
-  top: 30%;
-  left: 10%;
-}
-
-.contactcenterme {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  position: absolute;
-  top: 30%;
-}
-
-.centerform{
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  flex-wrap: nowrap;
-  width: 350px;
-  margin: 2%;
+  margin: 0 auto;
+  width: 95%;
+
+  }
+
+  .navlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #fff;
 }
 
-input {
-  background-color: #FFA0A0;
-}
+  .pushdown{
+    position: relative;
+    top: 5%;
+  }
 
-/* Portfolio */
+  .rightshadow{
+    box-shadow: 10px 10px;
+  }
 
-#portfoliotext {
-  font-family: sans-serif;
-}
+  .leftshadow{
+    box-shadow: -10px 10px;
+  }
+  
 
-#worksection {
+/* About Section */
+
+#about {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
+  margin: 2%;
+  padding: 2% 0%;
+  width: 95vw;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: relative;
+  height: 40vh;
+  background-color: #fff;
+}
+
+#about p{
+  margin: 5%;
+}
+
+
+.about_intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 1% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: absolute;
+  top: -23%;
+  right: 140px;
+  width: 20%;
+  background: #fff;
+}
+
+
+
+/* Portfolio Section */
+
+#portfolio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 2% 0%;
+  width: 95vw;
   position: relative;
 }
 
-#workgrid {
+.portfolio_intro {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 2% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  width: 30%;
+  background: #fff;
+}
+
+.workgrid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 95vw;
+  margin: 3%;
+}
+
+.portfolioanchor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border: 6px solid #000;
+}
+
+/* Portfolio Case Study Sections */
+
+#portfolio_one,
+#portfolio_two,
+#portfolio_three,
+#portfolio_four{
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 65%;
-}
-
-#workgrid a {
-  width: 35%;
-}
-
-#workgrid img {
-  width: 100%;
-  margin: 10%;
-}
-
-.portfoliocenterme {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   margin: 0 auto;
-  flex-direction: column;
+  width: 95vw;
+  padding: 1%;
 }
 
-.portfoliocenterme img {
-  width: 30%;
+.portfolio_row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
 }
 
-
-/* Form Styles */
-
-form {
+.portfolio_description{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 400px;
+  width: 50%;
+  padding: 3%;
+  border: 6px solid #000;
+  background-color: #fff;
 }
 
+.portfolio_detail{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  padding: 3%;
+}
 
+.portfolio_image{
+  border: 6px solid #000;
+}
 
+.portfolio_header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border: 6px solid #000;
+  width: 95%;
+  background-color: #fff;
+}
 
+/* Contact Section */
 
+#contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 2% 0%;
+  width: 95vw;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: relative;
+  height: 40vh;
+  background-color: #fff;
+}
+
+.contact_intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 2% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: absolute;
+  top: -23%;
+  right: 140px;
+  width: 20%;
+  background: #fff;
+}
+
+.contact_intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 1% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: absolute;
+  top: -23%;
+  right: 140px;
+  width: 20%;
+  background: #fff;
+}
+
+#contact p{
+  margin: 5%;
+}
 
 /* Media Queries */
 
 
 /* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 1439.98px) {
-  /*  header{
-      justify-content: space-between;
-    } */
-
-
+@media (max-width: 14408px) { 
 
 }
 
 /* Large devices (desktops, less than 1024px) */
-@media (max-width: 1024px) {
-  /* header{
-    justify-content: space-between;
-    } */
-
-  #contactsection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    position: absolute;
-    width: 80%;
-    background-color: #E0D3DE;
-    padding: 12%;
-    top: 30%;
-    height: 360px;
-    left: 10%;
-  }
-
+@media (max-width: 1024px) { 
 
 }
 
 /* Medium devices (tablets, less than 744px) */
-@media (max-width: 744px) {
-  /*  header{
-     justify-content: space-between;
-    } */
+@media (max-width: 744px) { 
 
-  #contactsection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    position: absolute;
-    width: 80%;
-    background-color: #E0D3DE;
-    padding: 12%;
-    top: 30%;
-    height: 360px;
-    left: 10%;
-  }
 }
 
 /* Small devices (landscape phones, less than 430px) */
 @media (max-width: 430px) {
-  /* header{
-      justify-content: space-between;
-    } */
 
-  #contactsection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    position: absolute;
-    width: 80%;
-    background-color: #E0D3DE;
-    padding: 12%;
-    top: 30%;
-    height: 360px;
-    left: 10%;
-  }
 }
 
 /* X-Small devices (portrait phones, less than 375px) */
 @media (max-width: 375px) {
-  /* header{
-        justify-content: space-between;
-      }
-      #contactsection{
-        background-color: #E0D3DE;
-    width: 100%;
-    margin: 0 auto;
-    top: 30%;
-    left: 10%;
-    padding: 10%;
-      } */
 
-  #contactsection {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    position: absolute;
-    width: 80%;
-    background-color: #E0D3DE;
-    padding: 12%;
-    top: 30%;
-    height: 360px;
-    left: 10%;
-  }
 }
+
+
