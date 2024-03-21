@@ -1,2 +1,2 @@
-# Portfolio_Site
-This is my cool ass website.
+# portfolio_site
+Portfolio site for Web Design I.
