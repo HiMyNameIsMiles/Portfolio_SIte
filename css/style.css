@@ -74,6 +74,9 @@ h2{
     margin: 2%;
     padding: 1%;
     background-color: #fff;
+    border: 6px solid;
+    margin-bottom: 12%;
+    margin-top: 7%;
 }
 
   nav{
@@ -125,6 +128,8 @@ h2{
   height: 40vh;
   background-color: #fff;
   top: 135px;
+  margin-bottom: 20%;
+  margin-top: 12%;
 }
 
 #about p{
@@ -145,6 +150,7 @@ h2{
     right: 10px;
     width: 30%;
     background: #fff;
+    margin-top: -.5,
 }
 
 
@@ -172,7 +178,8 @@ h2{
   box-shadow: -10px 20px;
   width: 30%;
   background: #fff;
-  
+  position: relative;
+  top: -25%;
 }
 
 .workgrid {
@@ -300,7 +307,7 @@ h2{
   position: relative;
   height: 40vh;
   background-color: #fff;
-  top: 500px;
+  top: 150px;
 }
 
 .contact_intro {
