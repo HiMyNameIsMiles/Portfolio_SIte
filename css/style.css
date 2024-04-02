@@ -355,6 +355,85 @@ h2{
 /* Large devices (desktops, less than 1024px) */
 @media (max-width: 1024px) { 
 
+nav {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+margin: 2%;
+width: 95%;
+}
+
+.navlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 2%;
+  padding: 1%;
+  background-color: #fff;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 100%;
+  font-family: "Play", sans-serif;
+  font-weight: 900;
+  font-size: 19px;
+  background-color: #C3C3C3;
+}
+
+.portfolio_description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 62%;
+  padding: 3%;
+  border: 6px solid #000;
+  height: 610px;
+  background-color: #fff;
+  font-size: 24px;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 2% 0%;
+  width: 95vw;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: relative;
+  height: 40vh;
+  background-color: #fff;
+  top: 135px;
+  margin-bottom: 20%;
+  margin-top: 12%;
+  font-size: 24px;
+}
+
+.portfolio_intro {
+top: -10%;
+
+}
+.workgrid {
+bottom: 100px;
+}
+
+.pushdown {
+  position: relative;
+  top: 0%;
+}
+
+#contact p{
+  font-size: 24px;
+}
+
 }
 
 /* Medium devices (tablets, less than 744px) */
