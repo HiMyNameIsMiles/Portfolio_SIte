@@ -438,6 +438,84 @@ bottom: 100px;
 
 /* Medium devices (tablets, less than 744px) */
 @media (max-width: 744px) { 
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2% 0%;
+    width: 99vw;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    background-color: #fff;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15%;
+  padding: 2% 0%;
+  width: 95vw;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: relative;
+  height: 40vh;
+  background-color: #fff;
+  top: 135px;
+  margin-bottom: 45%;
+  margin-top: 85%;
+  font-size: 16px;
+}
+
+
+#portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15%;
+  padding: 2% 0%;
+  width: 95vw;
+  position: relative;
+  top: -50px;
+}
+
+
+.portfolio_intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 2% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  width: 30%;
+  background: #fff;
+  position: relative;
+  top: -10;
+  margin-top: 75%;
+}
+
+#contact p{
+  font-size: 16px;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15%;
+  padding: 2% 0%;
+  width: 95vw;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: relative;
+  height: 40vh;
+  background-color: #fff;
+  top: 50px;
+  border-top: 10px;
+}
+
 
 }
 
