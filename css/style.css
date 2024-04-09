@@ -347,13 +347,23 @@ h2{
 /* Media Queries */
 
 
-/* X-Large devices (large desktops, less than 1400px) */
-@media (max-width: 14408px) { 
-
-}
 
 /* Large devices (desktops, less than 1024px) */
 @media (max-width: 1024px) { 
+
+
+header {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 2%;
+padding: 2% 0%;
+width: 97vw;
+border: 6px solid #000;
+box-shadow: -10px 10px;
+background-color: #fff;
+}
+
 
 nav {
 display: flex;
@@ -408,6 +418,22 @@ body {
   font-size: 24px;
 }
 
+.about_intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 1% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 10px;
+  position: absolute;
+  top: -35%;
+  right: 10px;
+  width: 30%;
+  background: #fff;
+  margin-top: -.5,;
+}
+
 #about {
   display: flex;
   justify-content: center;
@@ -416,14 +442,14 @@ body {
   padding: 2% 0%;
   width: 95vw;
   border: 6px solid #000;
-  box-shadow: -10px 20px;
+  box-shadow: -10px 10px;
   position: relative;
   height: 40vh;
   background-color: #fff;
   top: 135px;
   margin-bottom: 20%;
   margin-top: 12%;
-  font-size: 16px;
+  font-size: 24px;
 }
 
 #portfolio {
@@ -458,9 +484,25 @@ body {
 }
 
 .portfolio_intro {
-top: -35%;
+top: -25%;
 
 }
+
+
+.portfolio_intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 2% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 10px;
+  width: 30%;
+  background: #fff;
+  position: relative;
+  top: -25%;
+}
+
 
 .portfolio_description p{
   font-size: 16px;
@@ -491,8 +533,23 @@ top: -35%;
   top: 30px;
 }
 
+.contact_intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 1% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 10px;
+  position: absolute;
+  top: -45%;
+  right: 10px;
+  width: 30%;
+  background: #fff;
+}
+
 #contact p{
-  font-size: 16px;
+  font-size: 34px;
 }
 
 }
@@ -505,12 +562,21 @@ top: -35%;
     align-items: center;
     margin: 2%;
     padding: 2% 0%;
-    width: 99vw;
+    width: 92vw;
     border: 6px solid #000;
     box-shadow: -10px 20px;
     background-color: #fff;
     position: relative;
-    left: 30px;
+    left: 20px;
+}
+
+.intro {
+  margin-top: 5%;
+  margin-bottom: 2%;
+  width: 40vw;
+  position: relative;
+  left: 15px;
+  font-size: small;
 }
 
 nav {
@@ -528,21 +594,20 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15%;
+  margin: 11%;
   padding: 2% 0%;
-  width: 95vw;
+  width: 91vw;
   border: 6px solid #000;
   box-shadow: -10px 20px;
   position: relative;
-  height: 500px;
+  height: 300px;
   background-color: #fff;
-  /* top: -435px; */
+  top: 500px;
   margin-bottom: 45%;
   /* margin-top: 85%; */
   font-size: 16px;
   right: 40px;
 }
-
 
 #portfolio {
   display: flex;
@@ -577,11 +642,11 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 2%;
+  margin: 7%;
   padding: 2% 0%;
   border: 6px solid #000;
   box-shadow: -10px 20px;
-  width: 30%;
+  width: 40%;
   background: #fff;
   position: relative;
   top: -10;
@@ -602,25 +667,39 @@ nav {
 }
 
 #contact p{
-  font-size: 16px;
+  font-size: 24px;
+}
+
+.contact_intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 1% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: absolute;
+  top: -45%;
+  right: 10px;
+  width: 40%;
+  background: #fff;
 }
 
 #contact {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15%;
+  margin: 11%;
   padding: 8%;
   width: 65vw;
   border: 6px solid #000;
   box-shadow: -10px 20px;
   position: relative;
-  height: 370px;
+  height: 240px;
   background-color: #fff;
   top: 610px;
   /* border-top: 10px; */
 }
-
 
 }
 
@@ -638,7 +717,7 @@ nav {
     box-shadow: -10px 20px;
     background-color: #fff;
     position: relative;
-    left: 18px;
+    left: 10px;
 }
 
 header img{
@@ -674,11 +753,11 @@ nav {
   align-items: center;
   margin: 15%;
   padding: 2% 0%;
-  width: 95vw;
+  width: 91vw;
   border: 6px solid #000;
   box-shadow: -10px 20px;
   position: relative;
-  height: 500px;
+  height: 400px;
   background-color: #fff;
   top: 500px;
   margin-bottom: 45%;
@@ -818,6 +897,21 @@ nav {
   background: #fff;
 }
 
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  padding: 8%;
+  width: 65vw;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: relative;
+  height: 240px;
+  background-color: #fff;
+  top: 610px;
+  /* border-top: 10px; */
+}
 
 }
 
