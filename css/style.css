@@ -12,7 +12,10 @@ body{
   max-width: 100%;
   font-family: "Play", sans-serif;
   font-weight: 400;
-  background-color: #C3C3C3;
+  background-image: url('../img/BGTEST.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
   section{
@@ -130,6 +133,7 @@ h2{
   top: 200px;
   margin-bottom: 20%;
   margin-top: 12%;
+  font-size: 20px;
 }
 
 #about p{
@@ -342,6 +346,7 @@ h2{
 
 #contact p{
   margin: 5%;
+  font-size: 35px;
 }
 
 /* Media Queries */
