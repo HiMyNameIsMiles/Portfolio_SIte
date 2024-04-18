@@ -633,6 +633,18 @@ nav {
     left: 0%;
 }
 
+.workgrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 95vw;
+  margin: 3%;
+  position: relative;
+  bottom: 195px;
+}
+
   .intro {
     margin-top: 5%;
     margin-bottom: 2%;
@@ -712,9 +724,9 @@ nav {
     width: 40%;
     background: #fff;
     position: relative;
-    top: -10;
+    top: -9px;
     margin-top: 75%;
-  }
+}
 
   .portfolio_description {
     display: flex;
