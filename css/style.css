@@ -2,9 +2,13 @@
 
 /* Start writing your CSS */
 
-  /* Main Styles */
+/* Main Styles */
+html {
+  scroll-behavior: smooth;
 
-body{
+}
+
+body {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -12,77 +16,79 @@ body{
   max-width: 100%;
   font-family: "Play", sans-serif;
   font-weight: 400;
-  background-image: url('../img/BGTEST.jpg');
+  background-image: url('../img/BGTEST_blur.jpg');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
+
 }
 
-  section{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 0 auto;
-    height: 120vh;
-    max-width: 100%;
-  }
+section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 120vh;
+  max-width: 100%;
 
-  .thickbox{
-    border: 3px solid #000;
-  }
+}
+
+.thickbox {
+  border: 3px solid #000;
+}
 
 
-  /* Hero Section */
+/* Hero Section */
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
-    padding: 2% 0%;
-    width: 97vw;
-    border: 6px solid #000;
-    box-shadow: -10px 20px;
-    background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 2% 0%;
+  width: 97vw;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  background-color: #fff;
 }
 
-h1{
+h1 {
   font-family: "Play", sans-serif;
   font-size: 3rem;
   font-weight: 700;
 }
 
-h2{
+h2 {
   font-family: "Play", sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
 }
 
-  .centerme{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-
-  .intro {
-    display: flex;
-    width: 40%;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 2%;
-    padding: 1%;
-    background-color: #fff;
-    border: 6px solid;
-    margin-bottom: 12%;
-    margin-top: 7%;
+.centerme {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  flex-wrap: nowrap;
 }
 
-  nav{
+.intro {
+  display: flex;
+  width: 40%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2%;
+  padding: 1%;
+  background-color: #fff;
+  border: 6px solid;
+  margin-bottom: 12%;
+  margin-top: 7%;
+}
+
+nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -90,31 +96,31 @@ h2{
   margin: 0 auto;
   width: 95%;
 
-  }
-
-  .navlink {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    margin: 0 auto;
-    padding: 1%;
-    background-color: #fff;
 }
 
-  .pushdown{
-    position: relative;
-    top: 5%;
-  }
+.navlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 1%;
+  background-color: #fff;
+}
 
-  .rightshadow{
-    box-shadow: 10px 10px;
-  }
+.pushdown {
+  position: relative;
+  top: 5%;
+}
 
-  .leftshadow{
-    box-shadow: -10px 10px;
-  }
-  
+.rightshadow {
+  box-shadow: 10px 10px;
+}
+
+.leftshadow {
+  box-shadow: -10px 10px;
+}
+
 
 /* About Section */
 
@@ -136,32 +142,32 @@ h2{
   font-size: 20px;
 }
 
-#about p{
+#about p {
   margin: 5%;
 }
 
 
 .about_intro {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
-    padding: 1% 0%;
-    border: 6px solid #000;
-    box-shadow: -10px 20px;
-    position: absolute;
-    top: -35%;
-    right: 10px;
-    width: 30%;
-    background: #fff;
-    margin-top: -.5,
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 1% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: absolute;
+  top: -35%;
+  right: 10px;
+  width: 30%;
+  background: #fff;
+  margin-top: -.5,
 }
 
 
 
 /* Portfolio Section */
 
-#portfolio{
+#portfolio {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +204,7 @@ h2{
   bottom: 300px;
 }
 
-.portfolioanchor{
+.portfolioanchor {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +217,7 @@ h2{
 #portfolio_one,
 #portfolio_two,
 #portfolio_three,
-#portfolio_four{
+#portfolio_four {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -219,9 +225,10 @@ h2{
   margin: 0 auto;
   width: 95vw;
   padding: 1%;
+  margin-bottom: 5%;
 }
 
-.portfolio_row{
+.portfolio_row {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -229,7 +236,7 @@ h2{
   margin: 0 auto;
 }
 
-.portfolio_description{
+.portfolio_description {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -240,7 +247,7 @@ h2{
   background-color: #fff;
 }
 
-.portfolio_detail{
+.portfolio_detail {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,12 +256,12 @@ h2{
   padding: 3%;
 }
 
-.portfolio_image{
+.portfolio_image {
   border: 6px solid #000;
-  
+
 }
 
-.portfolio_header{
+.portfolio_header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -267,7 +274,7 @@ h2{
   left: 50px;
 }
 
-.portfolio_header_2{
+.portfolio_header_2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -280,7 +287,7 @@ h2{
   right: 50px;
 }
 
-.portfolio_header_4{
+.portfolio_header_4 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -293,13 +300,17 @@ h2{
   right: 50px;
 }
 
+#smallportfolio{
+  display: none;
+}
 
-  
+
+
 
 
 /* Contact Section */
 
-#contact{
+#contact {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -309,9 +320,9 @@ h2{
   border: 6px solid #000;
   box-shadow: -10px 20px;
   position: relative;
-  height: 40vh;
+  height: 400px;
   background-color: #fff;
-  top: 150px;
+  top: -50px;
 }
 
 .contact_intro {
@@ -331,20 +342,20 @@ h2{
 
 .contact_intro {
   display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
-    padding: 1% 0%;
-    border: 6px solid #000;
-    box-shadow: -10px 20px;
-    position: absolute;
-    top: -45%;
-    right: 10px;
-    width: 30%;
-    background: #fff;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+  padding: 1% 0%;
+  border: 6px solid #000;
+  box-shadow: -10px 20px;
+  position: absolute;
+  top: -45%;
+  right: 10px;
+  width: 30%;
+  background: #fff;
 }
 
-#contact p{
+#contact p {
   margin: 5%;
   font-size: 35px;
 }
@@ -354,213 +365,238 @@ h2{
 
 
 /* Large devices (desktops, less than 1024px) */
-@media (max-width: 1024px) { 
+@media (max-width: 1024px) {
 
 
-header {
-display: flex;
-justify-content: center;
-align-items: center;
-margin: 2%;
-padding: 2% 0%;
-width: 97vw;
-border: 6px solid #000;
-box-shadow: -10px 10px;
-background-color: #fff;
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2% 0%;
+    width: 97vw;
+    border: 6px solid #000;
+    box-shadow: -10px 10px;
+    background-color: #fff;
+  }
+
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2%;
+    width: 95%;
+  }
+
+  .navlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 2%;
+    padding: 1%;
+    background-color: #fff;
+  }
+
+  .navlink img {
+    width: 65%;
+  }
+
+  body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 100%;
+    font-family: "Play", sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    background-color: #C3C3C3;
+  }
+
+  .intro {
+    margin-top: 4%;
+    margin-bottom: 2%;
+  }
+
+  .centerme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 8%;
+    left: 0%;
 }
 
+  #portfolio_one, #portfolio_two, #portfolio_three, #portfolio_four {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90vw;
+    padding: 1%;
+    margin-bottom: 5%;
+    height: 65%;
+}
+  
 
-nav {
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: row;
-margin: 2%;
-width: 95%;
+  .portfolio_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    padding: 3%;
+    border: 6px solid #000;
+    height: 350px;
+    background-color: #fff;
+    font-size: 24px;
 }
 
-.navlink {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: 2%;
-  padding: 1%;
-  background-color: #fff;
+  .about_intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 1% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 10px;
+    position: absolute;
+    top: -35%;
+    right: 10px;
+    width: 30%;
+    background: #fff;
+    margin-top: -.5, ;
+  }
+
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2% 0%;
+    width: 95vw;
+    border: 6px solid #000;
+    box-shadow: -10px 10px;
+    position: relative;
+    height: 40vh;
+    background-color: #fff;
+    top: 135px;
+    margin-bottom: 20%;
+    margin-top: 12%;
+    font-size: 24px;
+  }
+
+  #portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2% 0%;
+    width: 95vw;
+    position: relative;
+    top: 300px;
+  }
+
+  .workgrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 95vw;
+    margin: 3%;
+    position: relative;
+    bottom: 300px;
+  }
+
+  .portfolioanchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3%;
+    border: 6px solid #000;
+  }
+
+  .portfolio_intro {
+    top: -25%;
+
+  }
+
+
+  .portfolio_intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 10px;
+    width: 30%;
+    background: #fff;
+    position: relative;
+    top: -25%;
+  }
+
+
+  .portfolio_description p {
+    font-size: 16px;
+  }
+
+  .portfolio_image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .pushdown {
+    position: relative;
+    top: 0%;
+  }
+
+  #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2% 0%;
+    width: 95vw;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: relative;
+    height: 40vh;
+    background-color: #fff;
+    top: -30px;
 }
 
-.navlink img{
-  width: 65%;
-}
+  .contact_intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 1% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 10px;
+    position: absolute;
+    top: -45%;
+    right: 10px;
+    width: 30%;
+    background: #fff;
+  }
 
-body {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 100%;
-  font-family: "Play", sans-serif;
-  font-weight: 900;
-  font-size: 19px;
-  background-color: #C3C3C3;
-}
-
-.intro {
-  margin-top: 4%;
-  margin-bottom: 2%;
-}
-
-.portfolio_description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 62%;
-  padding: 3%;
-  border: 6px solid #000;
-  height: 500px;
-  background-color: #fff;
-  font-size: 24px;
-}
-
-.about_intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 1% 0%;
-  border: 6px solid #000;
-  box-shadow: -10px 10px;
-  position: absolute;
-  top: -35%;
-  right: 10px;
-  width: 30%;
-  background: #fff;
-  margin-top: -.5,;
-}
-
-#about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 2% 0%;
-  width: 95vw;
-  border: 6px solid #000;
-  box-shadow: -10px 10px;
-  position: relative;
-  height: 40vh;
-  background-color: #fff;
-  top: 135px;
-  margin-bottom: 20%;
-  margin-top: 12%;
-  font-size: 24px;
-}
-
-#portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 2% 0%;
-  width: 95vw;
-  position: relative;
-  top: 300px;
-}
-
-.workgrid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 95vw;
-  margin: 3%;
-  position: relative;
-  bottom: 300px;
-}
-
-.portfolioanchor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 3%;
-  border: 6px solid #000;
-}
-
-.portfolio_intro {
-top: -25%;
-
-}
-
-
-.portfolio_intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 2% 0%;
-  border: 6px solid #000;
-  box-shadow: -10px 10px;
-  width: 30%;
-  background: #fff;
-  position: relative;
-  top: -25%;
-}
-
-
-.portfolio_description p{
-  font-size: 16px;
-}
-
-.portfolio_image img {
-  width: 100%;
-  height: auto;
-}
-
-.pushdown {
-  position: relative;
-  top: 0%;
-}
-
-#contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 2% 0%;
-  width: 95vw;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  position: relative;
-  height: 40vh;
-  background-color: #fff;
-  top: 30px;
-}
-
-.contact_intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 1% 0%;
-  border: 6px solid #000;
-  box-shadow: -10px 10px;
-  position: absolute;
-  top: -45%;
-  right: 10px;
-  width: 30%;
-  background: #fff;
-}
-
-#contact p{
-  font-size: 34px;
-}
+  #contact p {
+    font-size: 34px;
+  }
 
 }
 
 /* Medium devices (tablets, less than 744px) */
-@media (max-width: 744px) { 
+@media (max-width: 744px) {
   header {
     display: flex;
     justify-content: center;
@@ -573,138 +609,138 @@ top: -25%;
     background-color: #fff;
     position: relative;
     left: 20px;
+  }
+
+  .intro {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 40vw;
+    position: relative;
+    left: 15px;
+    font-size: small;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    left: 25px;
+  }
+
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 11%;
+    padding: 2% 0%;
+    width: 91vw;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: relative;
+    height: 300px;
+    background-color: #fff;
+    top: 500px;
+    margin-bottom: 45%;
+    /* margin-top: 85%; */
+    font-size: 16px;
+    right: 40px;
+  }
+
+  #portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    padding: 2% 0%;
+    width: 95vw;
+    position: relative;
+    top: 80px;
+    right: 65px;
+  }
+
+  .portfolioanchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2%;
+    width: 44%;
+    position: relative;
+    top: 30px;
+  }
+
+  .portfolioanchor img {
+    width: 95%;
+  }
+
+
+  .portfolio_intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7%;
+    padding: 2% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    width: 40%;
+    background: #fff;
+    position: relative;
+    top: -10;
+    margin-top: 75%;
+  }
+
+  .portfolio_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    padding: 3%;
+    border: 6px solid #000;
+    height: 350px;
+    background-color: #fff;
+    font-size: 24px;
 }
 
-.intro {
-  margin-top: 5%;
-  margin-bottom: 2%;
-  width: 40vw;
-  position: relative;
-  left: 15px;
-  font-size: small;
-}
+  #contact p {
+    font-size: 24px;
+  }
 
-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin: 0 auto;
-  width: 100%;
-  position: relative;
-  left: 25px;
-}
+  .contact_intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 1% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: absolute;
+    top: -45%;
+    right: 10px;
+    width: 40%;
+    background: #fff;
+  }
 
-#about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 11%;
-  padding: 2% 0%;
-  width: 91vw;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  position: relative;
-  height: 300px;
-  background-color: #fff;
-  top: 500px;
-  margin-bottom: 45%;
-  /* margin-top: 85%; */
-  font-size: 16px;
-  right: 40px;
-}
-
-#portfolio {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15%;
-  padding: 2% 0%;
-  width: 95vw;
-  position: relative;
-  top: 80px;
-  right: 65px;
-}
-
-.portfolioanchor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 2%;
-  width: 44%;
-  position: relative;
-  top: 30px;
-}
-
-.portfolioanchor img{
-  width: 95%;
-}
-
-
-.portfolio_intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 7%;
-  padding: 2% 0%;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  width: 40%;
-  background: #fff;
-  position: relative;
-  top: -10;
-  margin-top: 75%;
-}
-
-.portfolio_description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 50%;
-  padding: 3%;
-  border: 6px solid #000;
-  height: 300px;
-  background-color: #fff;
-  font-size: 24px;
-}
-
-#contact p{
-  font-size: 24px;
-}
-
-.contact_intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 1% 0%;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  position: absolute;
-  top: -45%;
-  right: 10px;
-  width: 40%;
-  background: #fff;
-}
-
-#contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 11%;
-  padding: 8%;
-  width: 65vw;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  position: relative;
-  height: 240px;
-  background-color: #fff;
-  top: 610px;
-  /* border-top: 10px; */
-}
+  #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 11%;
+    padding: 8%;
+    width: 65vw;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: relative;
+    height: 240px;
+    background-color: #fff;
+    top: 10px;
+    /* border-top: 10px; */
+  }
 
 }
 
@@ -723,84 +759,266 @@ nav {
     background-color: #fff;
     position: relative;
     left: 10px;
-}
+  }
 
-header img{
-  width: 50%;
-}
+  header img {
+    width: 50%;
+  }
 
-.intro {
-  margin-top: 5%;
-  margin-bottom: 2%;
-  width: 70vw;
-  position: relative;
-  left: 15px;
-}
+  .intro {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    width: 70vw;
+    position: relative;
+    left: 15px;
+  }
 
-.navlink img{
-  width: 95%;
-}
+  .navlink img {
+    width: 95%;
+  }
 
-nav {
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    left: 20px;
+  }
+
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    padding: 2% 0%;
+    width: 91vw;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: relative;
+    height: 400px;
+    background-color: #fff;
+    top: 500px;
+    margin-bottom: 45%;
+    /* margin-top: 85%; */
+    font-size: 16px;
+    right: 40px;
+  }
+
+  .about_intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 1% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: absolute;
+    top: -35%;
+    right: 10px;
+    width: 50%;
+    background: #fff;
+    margin-top: -.5, ;
+  }
+
+  .workgrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 95vw;
+    margin: 3%;
+    position: relative;
+    bottom: 180px;
+  }
+
+  .portfolioanchor img {
+    width: 100%;
+  }
+
+  #portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    padding: 2% 0%;
+    width: 95vw;
+    position: relative;
+    top: 200px;
+    right: 50px;
+  }
+
+
+#smallportfolio{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
   width: 100%;
-  position: relative;
-  left: 20px;
 }
 
-#about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15%;
-  padding: 2% 0%;
-  width: 91vw;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  position: relative;
-  height: 400px;
-  background-color: #fff;
-  top: 500px;
-  margin-bottom: 45%;
-  /* margin-top: 85%; */
-  font-size: 16px;
-  right: 40px;
+#portfolio_one,
+#portfio_two,
+#portfolio_three,
+#portfolio_four {
+ display: none;
 }
 
-.about_intro {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 1% 0%;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  position: absolute;
-  top: -35%;
-  right: 10px;
-  width: 50%;
-  background: #fff;
-  margin-top: -.5,;
-}
-
-.workgrid {
+.smallportfolio_item{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 95vw;
-  margin: 3%;
-  position: relative;
-  bottom: 180px;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.portfolioanchor img{
-  width: 100%;
+
+
+  .portfolio_intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 2% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    width: 70%;
+    background: #fff;
+    position: relative;
+    top: -160px;
+    margin-top: 75%;
+  }
+
+  .portfolioanchor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2%;
+    width: 70%;
+    position: relative;
+    top: 30px;
+  }
+
+  .portfolio_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .portfolio_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    padding: 3%;
+    border: 6px solid #000;
+    height: 300px;
+    background-color: #fff;
+    font-size: 24px;
+  }
+
+  .portfolio_image {
+    border: 6px solid #000;
+    width: 380px;
+    margin-bottom: 5%;
+}
+
+
+
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    padding: 8%;
+    width: 65vw;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: relative;
+    height: 370px;
+    background-color: #fff;
+    top: 610px;
+    /* border-top: 10px; */
+  }
+
+  .contact_intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    padding: 1% 0%;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: absolute;
+    top: -45%;
+    right: 10px;
+    width: 70%;
+    background: #fff;
+  }
+
+  #contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    padding: 8%;
+    width: 65vw;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: relative;
+    height: 185px;
+    background-color: #fff;
+    top: 100px;
+    /* border-top: 10px; */
+}
+
+h1 {
+  font-family: "Play", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Play", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+
+
+}
+
+/* X-Small devices (portrait phones, less than 375px) */
+@media (max-width: 375px) {
+
+  #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15%;
+    padding: 2% 0%;
+    width: 91vw;
+    border: 6px solid #000;
+    box-shadow: -10px 20px;
+    position: relative;
+    height: 400px;
+    background-color: #fff;
+    top: 179px;
+    margin-bottom: 45%;
+    /* margin-top: 85%; */
+    font-size: 16px;
+    right: 38px;
 }
 
 #portfolio {
@@ -811,43 +1029,40 @@ nav {
   padding: 2% 0%;
   width: 95vw;
   position: relative;
-  top: 400px;
-  right: 30px;
+  top: -20px;
+  right: 40px;
 }
 
-.portfolio_intro {
+#smallportfolio{
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin: 2%;
-  padding: 2% 0%;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  width: 70%;
-  background: #fff;
-  position: relative;
-  top: -160px;
-  margin-top: 75%;
-}
-
-.portfolioanchor {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin: 2%;
-  width: 70%;
-  position: relative;
-  top: 30px;
-}
-
-.portfolio_row {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   margin: 0 auto;
+  width: 100%;
+}
+
+#portfolio_one,
+#portfio_two,
+#portfolio_three,
+#portfolio_four {
+ display: none;
+}
+
+.smallportfolio_item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.portfolio_image {
+  border: 6px solid #000;
+  width: 340px;
+  margin-bottom: 5%;
 }
 
 .portfolio_description {
@@ -855,36 +1070,12 @@ nav {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 90%;
+  width: 330px;
   padding: 3%;
   border: 6px solid #000;
   height: 300px;
   background-color: #fff;
   font-size: 24px;
-}
-
-#portfolio_one,
-#portfio_two,
-#portfolio_three,
-#portfolio_four{
-  position: relative;
-  top: 500px;
-}
-
-.contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 15%;
-  padding: 8%;
-  width: 65vw;
-  border: 6px solid #000;
-  box-shadow: -10px 20px;
-  position: relative;
-  height: 370px;
-  background-color: #fff;
-  top: 610px;
-  /* border-top: 10px; */
 }
 
 .contact_intro {
@@ -896,9 +1087,9 @@ nav {
   border: 6px solid #000;
   box-shadow: -10px 20px;
   position: absolute;
-  top: -45%;
+  top: -55%;
   right: 10px;
-  width: 70%;
+  width: 50%;
   background: #fff;
 }
 
@@ -906,23 +1097,20 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10%;
-  padding: 8%;
+  margin: 16%;
+  padding: 4%;
   width: 65vw;
   border: 6px solid #000;
   box-shadow: -10px 20px;
   position: relative;
-  height: 240px;
+  height: 185px;
   background-color: #fff;
-  top: 610px;
+  top: 40px;
   /* border-top: 10px; */
 }
 
+#contact p {
+  font-size: 20px;
+} 
+
 }
-
-/* X-Small devices (portrait phones, less than 375px) */
-@media (max-width: 375px) {
-
-}
-
-
