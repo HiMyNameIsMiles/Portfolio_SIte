@@ -380,7 +380,7 @@ nav {
     background-color: #fff;
   }
 
-
+  
   nav {
     display: flex;
     justify-content: center;
@@ -429,8 +429,17 @@ nav {
     flex-direction: column;
     flex-wrap: nowrap;
     position: relative;
-    top: 8%;
+    top: 0%;
     left: 0%;
+}
+
+.portfolio_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 2%;
+  margin-top: 9px;
 }
 
   #portfolio_one, #portfolio_two, #portfolio_three, #portfolio_four {
@@ -534,7 +543,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
+    margin: 9%;
     padding: 2% 0%;
     border: 6px solid #000;
     box-shadow: -10px 10px;
@@ -542,7 +551,7 @@ nav {
     background: #fff;
     position: relative;
     top: -25%;
-  }
+}
 
 
   .portfolio_description p {
@@ -610,6 +619,18 @@ nav {
     position: relative;
     left: 20px;
   }
+
+  .centerme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 2%;
+    left: 0%;
+}
 
   .intro {
     margin-top: 5%;
@@ -761,6 +782,19 @@ nav {
     left: 10px;
   }
 
+  .centerme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 0%;
+    left: 0%;
+}
+
+
   header img {
     width: 50%;
   }
@@ -771,7 +805,9 @@ nav {
     width: 70vw;
     position: relative;
     left: 15px;
-  }
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
 
   .navlink img {
     width: 95%;
@@ -840,14 +876,14 @@ nav {
   }
 
   #portfolio {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     margin: 15%;
     padding: 2% 0%;
     width: 95vw;
     position: relative;
-    top: 200px;
+    top: 350px;
     right: 50px;
   }
 
@@ -859,6 +895,7 @@ nav {
   flex-direction: column;
   margin: 0 auto;
   width: 100%;
+  margin-top: 50%;
 }
 
 #portfolio_one,
