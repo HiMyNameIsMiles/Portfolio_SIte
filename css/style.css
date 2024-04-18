@@ -398,6 +398,7 @@ nav {
     margin: 2%;
     padding: 1%;
     background-color: #fff;
+    width: 170px;
   }
 
   .navlink img {
@@ -439,7 +440,7 @@ nav {
   align-items: center;
   flex-direction: row;
   margin: 2%;
-  margin-top: -65px;
+  margin-top: 9px;
 }
 
   #portfolio_one, #portfolio_two, #portfolio_three, #portfolio_four {
@@ -794,6 +795,17 @@ nav {
     left: 0%;
 }
 
+.navlink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 2%;
+  padding: 1%;
+  background-color: #fff;
+  width: 110px;
+}
+
 
   header img {
     width: 50%;
@@ -817,11 +829,11 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     margin: 0 auto;
     width: 100%;
     position: relative;
-    left: 20px;
+    left: 10px;
   }
 
   #about {
@@ -836,7 +848,7 @@ nav {
     position: relative;
     height: 400px;
     background-color: #fff;
-    top: 500px;
+    top: 170px;
     margin-bottom: 45%;
     /* margin-top: 85%; */
     font-size: 16px;
@@ -868,7 +880,8 @@ nav {
     width: 95vw;
     margin: 3%;
     position: relative;
-    bottom: 180px;
+    bottom: 510px;
+    margin-bottom: 50%;
   }
 
   .portfolioanchor img {
@@ -876,16 +889,18 @@ nav {
   }
 
   #portfolio {
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin: 15%;
     padding: 2% 0%;
     width: 95vw;
     position: relative;
-    top: 350px;
+    top: 500px;
     right: 50px;
-  }
+    margin-top: 140px;
+    margin-bottom: 220px;
+}
 
 
 #smallportfolio{
@@ -928,7 +943,7 @@ nav {
     width: 70%;
     background: #fff;
     position: relative;
-    top: -160px;
+    top: 0px;
     margin-top: 75%;
   }
 
@@ -969,6 +984,21 @@ nav {
     border: 6px solid #000;
     width: 380px;
     margin-bottom: 5%;
+}
+
+.portfolio_header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border: 6px solid #000;
+  width: 95%;
+  background-color: #fff;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  height: 100px;
+  width: 300px;
 }
 
 
@@ -1018,6 +1048,7 @@ nav {
     background-color: #fff;
     top: 100px;
     /* border-top: 10px; */
+    margin-bottom: 50%;
 }
 
 h1 {
