@@ -320,9 +320,9 @@ nav {
   border: 6px solid #000;
   box-shadow: -10px 20px;
   position: relative;
-  height: 400px;
+  height: 300px;
   background-color: #fff;
-  top: -50px;
+  top: -20px;
 }
 
 .contact_intro {
@@ -398,7 +398,7 @@ nav {
     margin: 2%;
     padding: 1%;
     background-color: #fff;
-    width: 170px;
+    width: 250px;
   }
 
   .navlink img {
@@ -579,7 +579,7 @@ nav {
     border: 6px solid #000;
     box-shadow: -10px 20px;
     position: relative;
-    height: 40vh;
+    height: 300px;
     background-color: #fff;
     top: -30px;
 }
@@ -724,7 +724,7 @@ nav {
     width: 40%;
     background: #fff;
     position: relative;
-    top: -9px;
+    top: -150px;
     margin-top: 75%;
 }
 
@@ -815,7 +815,7 @@ nav {
   margin: 2%;
   padding: 1%;
   background-color: #fff;
-  width: 110px;
+  width: 150px;
 }
 
 
@@ -841,7 +841,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     margin: 0 auto;
     width: 100%;
     position: relative;
@@ -926,7 +926,7 @@ nav {
 }
 
 #portfolio_one,
-#portfio_two,
+#portfolio_two,
 #portfolio_three,
 #portfolio_four {
  display: none;
@@ -955,7 +955,7 @@ nav {
     width: 70%;
     background: #fff;
     position: relative;
-    top: 0px;
+    top: -480px;
     margin-top: 75%;
   }
 
@@ -1013,6 +1013,33 @@ nav {
   width: 300px;
 }
 
+.portfolio_header_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border: 6px solid #000;
+  width: 95%;
+  background-color: #fff;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  height: 100px;
+  width: 300px;
+}
+
+.portfolio_header_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  border: 6px solid #000;
+  width: 95%;
+  background-color: #fff;
+  position: relative;
+  top: 50px;
+  right: 50px;
+}
 
 
   .contact {
@@ -1082,6 +1109,21 @@ h2 {
 /* X-Small devices (portrait phones, less than 375px) */
 @media (max-width: 375px) {
 
+  .portfolio_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    border: 6px solid #000;
+    width: 95%;
+    background-color: #fff;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    height: 100px;
+    width: 300px;
+}
+
   #about {
     display: flex;
     justify-content: center;
@@ -1092,7 +1134,7 @@ h2 {
     border: 6px solid #000;
     box-shadow: -10px 20px;
     position: relative;
-    height: 400px;
+    height: 350px;
     background-color: #fff;
     top: 179px;
     margin-bottom: 45%;
@@ -1109,7 +1151,7 @@ h2 {
   padding: 2% 0%;
   width: 95vw;
   position: relative;
-  top: -20px;
+  top: 330px;
   right: 40px;
 }
 
@@ -1177,9 +1219,9 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 16%;
+  margin: 20% 0% 20% 10%;
   padding: 4%;
-  width: 65vw;
+  width: 73vw;
   border: 6px solid #000;
   box-shadow: -10px 20px;
   position: relative;
